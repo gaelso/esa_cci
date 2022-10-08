@@ -1,0 +1,8 @@
+download/
+data/
+.rds
+
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
