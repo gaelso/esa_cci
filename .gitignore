@@ -1,6 +1,6 @@
 download/
 data/
-.rds
+*.rds
 
 .Rproj.user
 .Rhistory

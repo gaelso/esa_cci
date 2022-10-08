@@ -1,6 +1,7 @@
 ################ PACKAGES AND DIRECTORIES
-rootdir    <- paste0(normalizePath("~"),"/esa_cci/")
-conf_file  <- paste0(rootdir,"scripts/config.R")
+#rootdir    <- paste0(normalizePath("~"),"/esa_cci/")
+rootdir <- paste0(getwd(), "/")
+conf_file <- paste0(rootdir,"scripts/config.R")
 
 ############################################################################################################################################
 ############################################################################################################################################
@@ -10,11 +11,11 @@ conf_file  <- paste0(rootdir,"scripts/config.R")
 
 
 ################ INPUT PROJECT NAME
-prj_name   <- "KEN"
+prj_name   <- "TLS"
 
 
 ################ INPUT YEARS 
-date_b     <- 2015
+date_b     <- 2016
 date_e     <- 2020
 
 
